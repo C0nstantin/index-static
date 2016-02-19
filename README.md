@@ -7,7 +7,7 @@ It can be useful when collections can't be created by urlpatterns, like in subco
 
 ##Usage
 
-1. Write this propery in nutch config
+1.Write this propery in nutch config
 ```
 <property> 
   <name>index.static</name> 
@@ -15,7 +15,7 @@ It can be useful when collections can't be created by urlpatterns, like in subco
 </property> 
 ```
 
-2. And include plugin in listi **plugin.includes**
+2.And include plugin in listi **plugin.includes**
 ```
 <property>
   <name>plugin.includes</name>
@@ -31,7 +31,7 @@ It can be useful when collections can't be created by urlpatterns, like in subco
 </property>
 ```
 
-3. Rebuild project and Enjoy!
+3.Rebuild project and Enjoy!
 
 
 
