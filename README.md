@@ -8,7 +8,7 @@ It can be useful when collections can't be created by urlpatterns, like in subco
 ##Usage
 
 1.Write this propery in nutch config
-```
+```xml
 <property> 
   <name>index.static</name> 
   <value>source:nutch</value> 
@@ -16,7 +16,7 @@ It can be useful when collections can't be created by urlpatterns, like in subco
 ```
 
 2.And include plugin in listi **plugin.includes**
-```
+```xml
 <property>
   <name>plugin.includes</name>
  <value>protocol-httpclient|urlfilter-regex|parse-(html|tika)|index-(basic|anchor|static)|indexer-elastic|scoring-opic|urlnormalizer-(pass|regex|basic)</value>
